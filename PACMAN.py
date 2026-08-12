@@ -5,9 +5,7 @@ import random
 pygame.init()
 
 
-# -------------------------
-# GAME SETTINGS
-# -------------------------
+
 TILE = 28
 
 COLS = 21
@@ -30,9 +28,7 @@ pygame.display.set_caption(
 clock = pygame.time.Clock()
 
 
-# -------------------------
-# COLORS
-# -------------------------
+
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
@@ -48,9 +44,7 @@ ORANGE = (255, 150, 30)
 SCARED_BLUE = (40, 80, 255)
 
 
-# -------------------------
-# MAZE
-# -------------------------
+
 level = [
 
     "#####################",
@@ -79,9 +73,6 @@ level = [
 ]
 
 
-# -------------------------
-# GAME OBJECTS
-# -------------------------
 walls = []
 
 dots = []
@@ -92,10 +83,6 @@ ghost_start_positions = []
 
 player_start = (0, 0)
 
-
-# -------------------------
-# READ MAZE
-# -------------------------
 for row in range(len(level)):
 
     for col in range(len(level[row])):

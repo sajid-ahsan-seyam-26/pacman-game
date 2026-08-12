@@ -225,7 +225,7 @@ Possible features that could be added in future versions:
 * 🚪 More advanced Pac-Man tunnel behavior
 
 ## 📸 Screenshots
-
+<img width="590" height="648" alt="Image" src="https://github.com/user-attachments/assets/f7c3962a-12aa-4e26-82ca-aa6d792cce02" />
 
 
 

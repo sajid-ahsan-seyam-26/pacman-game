@@ -143,6 +143,7 @@ pip install pygame
 ### 3. Clone the Repository
 
 ```bash
+git clone https://github.com/sajid-ahsan-seyam-26/pacman-game.git
 
 ```
 
